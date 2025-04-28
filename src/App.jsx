@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Background from "./Components/Background";
 
 function App() {
   return (
-    <div className='w-full h-screen bg-zinc-800'>
-      <h1>Docs</h1>
+    <div className="relative w-full h-screen bg-zinc-800">
+     <Background/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
