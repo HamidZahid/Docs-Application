@@ -23,7 +23,7 @@ function Foreground() {
     },
   ];
   return (
-    <div className="fixed top-0 left-0 z-[3] w-full h-full flex gap-10 flex-wrap p-5 ">
+    <div className="fixed top-0 left-0 z-[3] w-full h-full bottom-0 flex gap-10 flex-wrap p-5 ">
       {data.map((item, index) => (
         <Card data={item} />
       ))}
